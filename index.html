@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <section>
+
+        <div class="container">
+            <div class="user signupbx">
+                <div class="imgBx">
+                    <img src="png3.png" alt="" title="InfoskillX">
+                    <img src="info.png" class="info">
+                </div>
+
+                <div class="formbx">
+                    <form>
+                        <h2>Create an account</h2>
+                        <div class="input1" id="input1">
+                            <input type="text" name="" id="name" class="user" placeholder="Username">
+                            <p id="nameValid" class="invalid"> username must be 2-10 characters long and not start with
+                                number</p>
+                        </div>
+                        <div class="input2" id="input2">
+                            <input type="email" name="" id="email" class="emailBx" placeholder="Email id">
+                            <p id="nameValid" class="invalidemail"> Your email should be valid</p>
+                        </div>
+                        <div class="input3" id="input3">
+                            <input type="text" name="" id="phone" placeholder="Phone">
+                            <p id="nameValid" class="invalidphone"> Your phone should not be more or less than 10-digit
+                            </p>
+                        </div>
+                        <div class="input4" id="input4">
+                            <input type="text" name="" id="password" placeholder="Create Password" value="">
+                            <p id="nameValid" class="invalidphone"> Your pass should be Minimum 8 characters, at least
+                                one letter and one number</p>
+                        </div>
+                        <div class="input5" id="input5">
+                            <input type="text" name="" id="password2" placeholder="Confirm Password" value="">
+                            <p> Your password is not match.
+                        </div>
+                        <input type="Submit" name="" id="submit" value="Sign Up">
+                        <div class="input6" id="input6">
+                            <div id="alert" class="success">
+                                <p><b>Success</b>! Your form is submitted</p>
+                            </div>
+                            
+                        </div>
+                        <p class="signup">Already have an account <a href="#">Sign in</a></p>
+                    </form>
+                </div>
+                <div class="imgbx"></div>
+            </div>
+        </div>
+        <div id="amrit">
+            
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
